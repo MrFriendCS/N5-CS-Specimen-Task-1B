@@ -1,5 +1,5 @@
 -- Don't touch lines 1 to 5
-.open Employee.db
+.open WhitestarAmps.db
 .headers on
 .mode column
 -- Don't touch lines 1 to 5
@@ -11,9 +11,13 @@
 INSERT INTO Employee
 VALUES (1599, "Jeremy", "May", "67 Red Lane", "07923782534", "TRUE");
 
+.print
 .print Evidence
 SELECT *
 FROM Employee
 WHERE employeeNumber = 1599;
 
 .print
+.print Remove employee
+DELETE FROM Employee
+WHERE employeeNumber = 1599;

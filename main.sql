@@ -1,5 +1,5 @@
 -- Don't touch lines 1 to 5
-.open Employee.db
+.open WhitestarAmps.db
 .headers on
 .mode column
 -- Don't touch lines 1 to 5
@@ -13,3 +13,7 @@
 
 
 .print
+.print Evidence
+
+
+
